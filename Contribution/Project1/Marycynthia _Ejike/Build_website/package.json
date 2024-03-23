@@ -1,0 +1,19 @@
+{
+  "name": "build_website",
+  "version": "1.0.0",
+  "description": "static website",
+  "main": "./server.js",
+  "bin": "./server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.1",
+    "http-server": "^14.1.1"
+  }
+}
